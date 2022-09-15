@@ -96,12 +96,20 @@ There are 3 best posiible ways by car. This is the fastest way</p>
       Get more information on lazy loading images</a>
     <h3>Displaying code using pre</h3>
     <pre>
-        def sumIt (n):
-            x = 0
-            for x in range(0,n):
-                sum += x
-            return sum
-    </pre>
+        <p>Enter names in the fields, then click "Submit" to submit the form:</p>
+
+<form id="frm1" action="/action_page.php">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br><br>
+  <input type="button" onclick="myFunction()" value="Submit">
+</form>
+
+<script>
+function myFunction() {
+  document.getElementById("frm1").submit();
+}
+</script>
+</pre>
 
 </body>
 </html>
