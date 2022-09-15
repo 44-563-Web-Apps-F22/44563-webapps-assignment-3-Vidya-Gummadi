@@ -97,8 +97,9 @@ There are 3 best posiible ways by car. This is the fastest way</p>
     <h3>Displaying code using pre</h3>
     <pre>
         <Card>
+            <CardHeader title="Output" />
             <CardContent>
-              <pre {JSON.stringify(values, null, 2)}</pre>
+              <pre style={{ backgroundColor: "white" }}>{JSON.stringify(values, null, 2)}</pre>
             </CardContent>
           </Card>
     </pre>
